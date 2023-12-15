@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High Five</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./public/CSS-Files/MainMenu.css">
+</head>
+<body>
+  <div class="main-div">
+    <div class="game-title">High Five</div>
+    <div><a href="./public/TwoPlayers.html">
+      <button class="btn">2 Players</button>
+    </a></div>
+    <div><a href="./public/ThreePlayers.html">
+      <button class="btn">3 Players</button>
+    </a></div>
+    <div><a href="./public/FourPlayers.html">
+      <button class="btn">4 Players</button>
+    </a></div>
+    <div>
+      <button class="btn btn-modal">Guide & Rules</button>
+    </div>
+  </div>
+  <div id="overlay" class="overlay modal-toggle">
+    <div class="modal">
+      <p class="modal-title">Guide</p>
+      <p class="modal-description">The game generates five random, unique cards for
+        each player from a single deck of cards (jokers are not included).
+      </p>
+      <p class="modal-title">Rules</p>
+      <p class="modal-description">The rules are yours to make. Have fun!</p>
+      <p class="note"><em>Click anywhere to close.</em></p>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./public/JS-Files/index.js" charset="utf-8"></script>
+</body>
+</html>
